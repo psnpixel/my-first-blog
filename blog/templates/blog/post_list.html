@@ -1,0 +1,49 @@
+{% load static %}
+
+<html >
+<head>
+    
+    <title>Diwali Celebration</title>
+    <script type="text/javascript">
+    function my_function(){
+    var person = document.myForm.nameOfPerson.value;
+    <!--var age = document.myForm.ageOfPerson.value;-->
+    document.getElementById('demo').innerHTML = "Wish You Happy Diwali in Advance "+ person;
+    document.getElementById('demo30').style.display='block'
+	}
+
+
+    </script>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}"> 
+</head>
+<body>
+
+    <p >Hi welcome! Here Prabhuswamy S N Wishing you</p>
+    <form name="myForm">
+        <input type="text" placeholder="Enter Your Name" name="nameOfPerson" value="" />
+        <!--<input type="text" placeholder="Enter your age"  name="ageOfPerson" value="" />-->
+    </form>
+    <button type="button"
+            onclick="my_function()" >Get my Wishes</button>
+
+
+    <pre id="demo30"
+    style="display:none">
+        On this auspicious
+        festival of lights,
+
+        May the glow of joy,
+        prosperity and
+        happiness...
+
+        Illuminate your days
+        in the year ahead.
+
+        </pre>
+    <h1 id="demo"> </h1>
+
+
+
+
+</body>
+</html>

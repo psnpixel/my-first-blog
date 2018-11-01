@@ -1,0 +1,53 @@
+body{
+    background-image:url(diwali.gif);
+    height:100vh;
+    background-size: contain;
+    background-position: center;
+}
+
+p {
+	
+	color:white;
+	font-size:40px;
+	
+	}
+
+
+
+
+
+h1 {
+    color:white;
+    text-align: center;
+    margin:0px;
+    font-size:70px;
+
+}
+
+pre {
+    color:white;
+    font-family:times new roman;
+    text-align: center;
+    font-size:50px;
+    margin:0px;
+
+}
+
+input{
+    position: relative;
+    border:3px solid red;
+    margin:5px;
+    padding: 10px;
+
+}
+
+button{
+    position: relative;
+    border:3px solid red;
+    margin:5px;
+    padding: 10px;
+	color: 'green';
+    font-size: 14px;
+    cursor: pointer;
+
+}
